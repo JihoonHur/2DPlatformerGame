@@ -48,7 +48,7 @@ public class PF_PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         // 플레이어 리지드바디2D 컴포넌트에 위에서 계산한 값을 부여한다.
-        rigidbody2D.linearVelocity = new Vector2(xDirection * moveSpeed, rigidbody2D.linearVelocity.y);
+        rigidbody2D.velocity = new Vector2(xDirection * moveSpeed, rigidbody2D.velocity.y);
     }
 
     
