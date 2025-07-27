@@ -2225,10 +2225,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: UICanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 8406356565652628621, guid: eb723dfa2094241f6a7eba4c0feda89b, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 9049611384730826019, guid: eb723dfa2094241f6a7eba4c0feda89b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
